@@ -1,0 +1,134 @@
+.buttonYellow {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #222;
+    background-image: linear-gradient( -45deg, #fdcf41 50%, transparent 0);
+    background-size: calc(200% + 60px) 100%;
+    background-position: calc(-23px) 0;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    animation-duration: 5s;
+    transition: all .25s ease;
+    margin-bottom: 10px;
+}
+
+.buttonYellow>h3 {
+    color: #fff;
+    text-transform: uppercase;
+    transition: all .25s ease;
+}
+
+
+/* -----------INTERCEPTION ARROW BUTTONS----------- */
+
+.squareYellowButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/arrowBlack.svg) #fdcf41 no-repeat center;
+    background-size: 25px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.squareYellowButton:hover {
+    background: url(../img/arrowWhite.svg) #222 no-repeat center;
+    background-size: 25px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.positionUp {
+    transform: rotate(90deg);
+}
+
+.positionDown {
+    transform: rotate(270deg);
+}
+
+.positionRight {
+    transform: rotate(180deg);
+}
+
+.positionLeft {
+    transform: rotate(0deg);
+}
+
+.sendRoster {
+    align-self: flex-end;
+    margin: 20px;
+}
+
+
+/* -----------SMALL BUTTON----------- */
+
+.buttonBlackSmall {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #222;
+    width: 115px;
+    height: 45px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.buttonBlackSmall>h3 {
+    color: #fff;
+    text-transform: uppercase;
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.buttonBlackSmall:hover {
+    background-color: #fdcf41;
+}
+
+.buttonBlackSmall:hover h3 {
+    color: #222;
+}
+
+
+/* -----------UPLOAD FILE----------- */
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile+label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.inputfile+label>h3 {
+    margin: 0px;
+}
+
+.inputfile:focus+label,
+.inputfile+label:hover {
+    background-color: #fdcf41;
+    color: #222222;
+}
+
+.inputfile:focus+label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}

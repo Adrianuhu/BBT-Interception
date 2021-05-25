@@ -1,0 +1,104 @@
+:root {
+    --colorBlack: #222222;
+    --colorYellow: #fdcf41;
+    --colorLighGrey: #f0f0f0;
+    --colorWhite: white;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+* {
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 12px;
+    font-family: gordita, Helvetica, Arial, Verdana, sans-serif;
+}
+
+#logoBBT {
+    width: 35px;
+    margin-top: 10px;
+    align-self: center;
+}
+
+h1 {
+    font-weight: 900;
+    line-height: 41px;
+    font-size: 40px;
+    font-family: stratos, Helvetica, Arial, Verdana, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 36px;
+    font-family: stratos, Helvetica, Arial, Verdana, sans-serif;
+}
+
+h3 {
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: stratos, Helvetica, Arial, Verdana, sans-serif;
+}
+
+.boton {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: stratos, Helvetica, Arial, Verdana, sans-serif;
+}
+
+a:link {
+    color: var( --colorBlack);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fdcf41;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#contenedor,
+#header,
+#footer {
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+footer {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+body,
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

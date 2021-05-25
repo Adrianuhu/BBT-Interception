@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.BBTournaments" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>BBT Interception</name>
+    <description>
+        Simple aplicación para ver zonas de intercepción de fantasy football y evitar que la gente acabe apuñalándose con la regla de pases.
+    </description>
+    <author email="adrianuhu@gmail.com" href="https://adrianuhu.github.io/">
+        Adrian Rodriguez
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <preference name="Fullscreen" value="true" />
+    <icon src="www/img/ico.png"/>
+</widget>

@@ -1,0 +1,61 @@
+#interceptionTable {
+    border-collapse: collapse;
+    border: 1px solid black;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+#interceptionTable td,
+#interceptionTable th {
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    padding: 6px 6px;
+}
+
+.inputInterception {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    user-select: none;
+}
+
+.crearIntercepcion {
+    display: flex;
+    align-items: center;
+}
+
+.secondContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.verticalControlers {
+    margin-right: 5px;
+}
+
+.horizontalControlers {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 580px) {
+    #interceptionTableContainer tr {
+        background: white;
+        display: table-row;
+    }
+    #interceptionTableContainer td {
+        background: white;
+        display: table-cell;
+        height: 10px;
+        padding: 0px 0px;
+    }
+    #interceptionTableContainer tr td:before {
+        min-width: 10px;
+    }
+}
